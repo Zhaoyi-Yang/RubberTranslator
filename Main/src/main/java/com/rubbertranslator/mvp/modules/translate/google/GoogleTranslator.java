@@ -120,7 +120,7 @@ public class GoogleTranslator extends AbstractTranslator {
      */
     private String doTranslate(String source, String dest, String text) throws IOException {
         String result = null;
-        String pageUrl = "https://translate.google.cn/m";
+        String pageUrl = "https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp";
         Map<String, String> param = new HashMap<>();
         param.put("sl", source);
         param.put("tl", dest);
